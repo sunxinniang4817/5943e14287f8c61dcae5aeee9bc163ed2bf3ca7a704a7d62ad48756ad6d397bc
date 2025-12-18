@@ -1,25 +1,31 @@
 name: sunxinniang4817
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 4/6 * * *'
+    - cron: '38 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sunxinniang4817
         env:
-          d6688: ${{ secrets.d6688 }}
+          irn923: ${{ secrets.irn923 }}
         run: |
-          echo $d6688 | jq -r .vthi7393 | /bin/bash
-          echo $y5920 | jq -r .z33592 | /bin/bash
-          echo $ud2417 | jq -r .mynm85912 | /bin/bash
-          echo $l6738 | jq -r .d569 | /bin/bash
-          echo $n625 | jq -r .py437 | /bin/bash
-          echo $bw83 | jq -r .mamv2 | /bin/bash
-          echo $v01749 | jq -r .kuix30251 | /bin/bash
-          echo $rxzu0407 | jq -r .qoqa58 | /bin/bash
+          echo $irn923 | jq -r .n028 | /bin/bash
+          echo $oo85737 | jq -r .dpmbf200 | /bin/bash
+          echo $jn2313 | jq -r .g326 | /bin/bash
+          echo $pjatd8 | jq -r .h226 | /bin/bash
+          echo $d0 | jq -r .nsm671 | /bin/bash
+          echo $ioh35822 | jq -r .ug4 | /bin/bash
+          echo $teu67 | jq -r .vwn3 | /bin/bash
+          echo $lamg7654 | jq -r .hxyp1 | /bin/bash
+          echo $i356 | jq -r .dd5 | /bin/bash
+          echo $zxfs894 | jq -r .vh9 | /bin/bash
+          echo $rsosq836 | jq -r .ycdfv963 | /bin/bash
+          echo $k79708 | jq -r .evn63867 | /bin/bash
+          echo $aqe1622 | jq -r .cb8366 | /bin/bash
+          echo $ulm2 | jq -r .tkq8460 | /bin/bash
 
